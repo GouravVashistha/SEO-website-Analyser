@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 
 @Service
 public class SEOAnalyzerServiceImpl implements SEOAnalyzerService {
-
+    // with out AI integration
     private final SEOAnalysisResultRepository repository;
 
     public SEOAnalyzerServiceImpl(SEOAnalysisResultRepository repository) {
